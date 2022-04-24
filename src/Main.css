@@ -1,0 +1,32 @@
+.main-container {
+  border: 2px black solid;
+  border-radius: 10px;
+  display: flex;
+  width: 500px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0ffff;
+}
+
+.inner-container input {
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.inner-container {
+  border: black solid 2px;
+  height: 90%;
+  width: 90%;
+  background-color: #00ced1;
+  border-radius: 10px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  font-size: medium;
+}
